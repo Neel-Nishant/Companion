@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180DB0E51DA977AF00E4040D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DB0E41DA977AF00E4040D /* FeedVC.swift */; };
+		180DB0E71DA9790100E4040D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DB0E61DA9790100E4040D /* PostCell.swift */; };
+		180FAFF51DA2A78F00617452 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180FAFF41DA2A78F00617452 /* GoogleService-Info.plist */; };
+		18682A051DAD0099003B031C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18682A041DAD0099003B031C /* Post.swift */; };
+		18726FF31DA19B7D002C5811 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18726FF21DA19B7D002C5811 /* MaterialView.swift */; };
+		18726FF71DA19BEB002C5811 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18726FF61DA19BEB002C5811 /* Constants.swift */; };
+		18726FFC1DA19E7F002C5811 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18726FF81DA19E7F002C5811 /* NotoSans-Bold.ttf */; };
+		18726FFD1DA19E7F002C5811 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18726FF91DA19E7F002C5811 /* NotoSans-BoldItalic.ttf */; };
+		18726FFE1DA19E7F002C5811 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18726FFA1DA19E7F002C5811 /* NotoSans-Italic.ttf */; };
+		18726FFF1DA19E7F002C5811 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18726FFB1DA19E7F002C5811 /* NotoSans-Regular.ttf */; };
+		187270051DA1A4A1002C5811 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187270041DA1A4A1002C5811 /* MaterialTextField.swift */; };
+		187270091DA1A7E5002C5811 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187270081DA1A7E5002C5811 /* MaterialButton.swift */; };
 		18D0905D1DA18A23001FF9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0905C1DA18A23001FF9B1 /* AppDelegate.swift */; };
 		18D0905F1DA18A23001FF9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0905E1DA18A23001FF9B1 /* ViewController.swift */; };
 		18D090621DA18A23001FF9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D090601DA18A23001FF9B1 /* Main.storyboard */; };
 		18D090641DA18A23001FF9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D090631DA18A23001FF9B1 /* Assets.xcassets */; };
 		18D090671DA18A23001FF9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D090651DA18A23001FF9B1 /* LaunchScreen.storyboard */; };
+		18F646E71DA6D34400DC9DEB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F646E61DA6D34400DC9DEB /* DataService.swift */; };
+		CB6D826747F94DEDC9ED65BC /* Pods_Neel_Showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E10927555429FE6CB9369F /* Pods_Neel_Showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01AFD0728F2629E22CCEAC8E /* Pods-Neel-Showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neel-Showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neel-Showcase/Pods-Neel-Showcase.release.xcconfig"; sourceTree = "<group>"; };
+		180DB0E41DA977AF00E4040D /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		180DB0E61DA9790100E4040D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		180FAFF41DA2A78F00617452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18682A041DAD0099003B031C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		18726FF21DA19B7D002C5811 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		18726FF61DA19BEB002C5811 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18726FF81DA19E7F002C5811 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		18726FF91DA19E7F002C5811 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18726FFA1DA19E7F002C5811 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		18726FFB1DA19E7F002C5811 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		187270041DA1A4A1002C5811 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		187270081DA1A7E5002C5811 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		1873CAC81DA2B31D00AD6E34 /* Neel-Showcase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neel-Showcase-Bridging-Header.h"; sourceTree = "<group>"; };
 		18D090591DA18A23001FF9B1 /* Neel-Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neel-Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0905C1DA18A23001FF9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D0905E1DA18A23001FF9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +50,9 @@
 		18D090631DA18A23001FF9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D090661DA18A23001FF9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D090681DA18A23001FF9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F646E61DA6D34400DC9DEB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		6B4A5D8630FB15BB47BCA362 /* Pods-Neel-Showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neel-Showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neel-Showcase/Pods-Neel-Showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		99E10927555429FE6CB9369F /* Pods_Neel_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neel_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6D826747F94DEDC9ED65BC /* Pods_Neel_Showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18726FF51DA19BDA002C5811 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18726FF61DA19BEB002C5811 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		18D090501DA18A23001FF9B1 = {
 			isa = PBXGroup;
 			children = (
 				18D0905B1DA18A23001FF9B1 /* Neel-Showcase */,
 				18D0905A1DA18A23001FF9B1 /* Products */,
+				6D34EB6BF08D6059401258A9 /* Pods */,
+				4991EB8B196F48AF539A1CDC /* Frameworks */,
+				1873CAC81DA2B31D00AD6E34 /* Neel-Showcase-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,84 @@
 		18D0905B1DA18A23001FF9B1 /* Neel-Showcase */ = {
 			isa = PBXGroup;
 			children = (
+				18F646E51DA6D32C00DC9DEB /* Services */,
+				18726FF51DA19BDA002C5811 /* Util */,
+				18D090711DA18A58001FF9B1 /* Resources */,
+				18D090701DA18A52001FF9B1 /* View */,
+				18D0906F1DA18A49001FF9B1 /* Model */,
+				18D0906E1DA18A38001FF9B1 /* Controller */,
 				18D0905C1DA18A23001FF9B1 /* AppDelegate.swift */,
-				18D0905E1DA18A23001FF9B1 /* ViewController.swift */,
 				18D090601DA18A23001FF9B1 /* Main.storyboard */,
 				18D090631DA18A23001FF9B1 /* Assets.xcassets */,
 				18D090651DA18A23001FF9B1 /* LaunchScreen.storyboard */,
 				18D090681DA18A23001FF9B1 /* Info.plist */,
+				180FAFF41DA2A78F00617452 /* GoogleService-Info.plist */,
 			);
 			path = "Neel-Showcase";
+			sourceTree = "<group>";
+		};
+		18D0906E1DA18A38001FF9B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18D0905E1DA18A23001FF9B1 /* ViewController.swift */,
+				180DB0E41DA977AF00E4040D /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18D0906F1DA18A49001FF9B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18682A041DAD0099003B031C /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18D090701DA18A52001FF9B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18726FF21DA19B7D002C5811 /* MaterialView.swift */,
+				187270041DA1A4A1002C5811 /* MaterialTextField.swift */,
+				187270081DA1A7E5002C5811 /* MaterialButton.swift */,
+				180DB0E61DA9790100E4040D /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18D090711DA18A58001FF9B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18726FF81DA19E7F002C5811 /* NotoSans-Bold.ttf */,
+				18726FF91DA19E7F002C5811 /* NotoSans-BoldItalic.ttf */,
+				18726FFA1DA19E7F002C5811 /* NotoSans-Italic.ttf */,
+				18726FFB1DA19E7F002C5811 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18F646E51DA6D32C00DC9DEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18F646E61DA6D34400DC9DEB /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4991EB8B196F48AF539A1CDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E10927555429FE6CB9369F /* Pods_Neel_Showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D34EB6BF08D6059401258A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A5D8630FB15BB47BCA362 /* Pods-Neel-Showcase.debug.xcconfig */,
+				01AFD0728F2629E22CCEAC8E /* Pods-Neel-Showcase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D0906B1DA18A23001FF9B1 /* Build configuration list for PBXNativeTarget "Neel-Showcase" */;
 			buildPhases = (
+				5CD667CCC738E61F28F80BEC /* [CP] Check Pods Manifest.lock */,
 				18D090551DA18A23001FF9B1 /* Sources */,
 				18D090561DA18A23001FF9B1 /* Frameworks */,
 				18D090571DA18A23001FF9B1 /* Resources */,
+				866F7DB8D4725DCD262AA370 /* [CP] Embed Pods Frameworks */,
+				4E9E16FB406E517F80EAB53A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +238,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18726FFC1DA19E7F002C5811 /* NotoSans-Bold.ttf in Resources */,
+				180FAFF51DA2A78F00617452 /* GoogleService-Info.plist in Resources */,
 				18D090671DA18A23001FF9B1 /* LaunchScreen.storyboard in Resources */,
+				18726FFD1DA19E7F002C5811 /* NotoSans-BoldItalic.ttf in Resources */,
+				18726FFE1DA19E7F002C5811 /* NotoSans-Italic.ttf in Resources */,
 				18D090641DA18A23001FF9B1 /* Assets.xcassets in Resources */,
 				18D090621DA18A23001FF9B1 /* Main.storyboard in Resources */,
+				18726FFF1DA19E7F002C5811 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E9E16FB406E517F80EAB53A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neel-Showcase/Pods-Neel-Showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD667CCC738E61F28F80BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		866F7DB8D4725DCD262AA370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neel-Showcase/Pods-Neel-Showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D090551DA18A23001FF9B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18726FF31DA19B7D002C5811 /* MaterialView.swift in Sources */,
+				18F646E71DA6D34400DC9DEB /* DataService.swift in Sources */,
+				18726FF71DA19BEB002C5811 /* Constants.swift in Sources */,
+				187270091DA1A7E5002C5811 /* MaterialButton.swift in Sources */,
+				180DB0E51DA977AF00E4040D /* FeedVC.swift in Sources */,
+				180DB0E71DA9790100E4040D /* PostCell.swift in Sources */,
+				187270051DA1A4A1002C5811 /* MaterialTextField.swift in Sources */,
 				18D0905F1DA18A23001FF9B1 /* ViewController.swift in Sources */,
 				18D0905D1DA18A23001FF9B1 /* AppDelegate.swift in Sources */,
+				18682A051DAD0099003B031C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +426,30 @@
 		};
 		18D0906C1DA18A23001FF9B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4A5D8630FB15BB47BCA362 /* Pods-Neel-Showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Neel-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.neel.Neel-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Neel-Showcase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		18D0906D1DA18A23001FF9B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AFD0728F2629E22CCEAC8E /* Pods-Neel-Showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Neel-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.neel.Neel-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Neel-Showcase-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +472,7 @@
 				18D0906D1DA18A23001FF9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

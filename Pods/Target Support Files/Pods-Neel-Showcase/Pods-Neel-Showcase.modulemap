@@ -1,0 +1,6 @@
+framework module Pods_Neel_Showcase {
+  umbrella header "Pods-Neel-Showcase-umbrella.h"
+
+  export *
+  module * { export * }
+}
